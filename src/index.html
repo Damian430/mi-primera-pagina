@@ -8,10 +8,25 @@
     <title>Document</title>
 </head>
 
-<body class="container mx-auto bg-zinc-900 text-white">
-    <h1 class="text-3xl font-bold underline">
-        Hola, mi nombre es damian
-    </h1>
+<body class="container mx-auto min-h-screen flex flex-col">
+    <nav class="bg-gray-800 py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="#" class="text-lg font-bold text-white">Hola soy Damian</a>
+            <ul class="flex items-center space-x-4">
+                <li><a href="#" class="text-gray-300 hover:text-white">Inicio</a></li>
+                <li><a href="#" class="text-gray-300 hover:text-white">Acerca de</a></li>
+                <li><a href="#" class="text-gray-300 hover:text-white">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="flex-1 p-4 min-h-full w-full">
+        <h2>Mi primer elemento</h2>
+    </main>
+
+    <footer class="bg-zinc-900 text-white p-4 text-center">
+        <p>Todos los derechos reservados - 2024</p>
+    </footer>
 </body>
 
 </html>
