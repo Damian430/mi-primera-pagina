@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 
-<body class="container mx-auto min-h-screen flex flex-col">
-    <nav class="bg-gray-800 py-4">
+<body class="min-h-screen flex flex-col">
+    <nav class="bg-gray-800 py-4 w-full h-auto">
         <div class="container mx-auto flex justify-between items-center px-4">
             <a href="#" class="text-lg font-bold text-white">Hola soy Damian</a>
             <ul class="flex items-center space-x-4">
@@ -20,11 +20,23 @@
         </div>
     </nav>
 
-    <main class="flex-1 p-4 min-h-full w-full">
-        <h2>Mi primer elemento</h2>
+    <main class="flex flex-col min-h-screen w-full container mx-auto">
+        <section class="w-full h-[50vh] flex flex-col justify-center items-center gap-4">
+            <h1 class="text-6xl">Bienvenido a mi página</h1>
+            <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, voluptas!</p>
+
+            <div class="w-3/5 h-auto flex items-center justify-center gap-2">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded">
+                    Empezar
+                </button>
+                <button class="bg-transparent text-blue-600 px-4 py-2">
+                    Leer mas →
+                </button>
+            </div>
+        </section>
     </main>
 
-    <footer class="bg-zinc-900 text-white p-4 text-center">
+    <footer class="bg-zinc-900 text-white p-4 text-center w-full h-auto">
         <p>Todos los derechos reservados - 2024</p>
     </footer>
 </body>
