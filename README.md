@@ -8,3 +8,5 @@ Glosario:
 - outline: borde de la caja sin relleno
 
 **NOTA:** no esta en todos los elementos HTML, solamente en elementos form como input, select, textarea, etc... o en enlaces <a>
+
+layout - estructura
